@@ -1,3 +1,8 @@
+// File: routes/index.js
+// Author: Jakob Clements
+// Project: COMP2068 Assignment 1 - Express Portfolio Site
+// Description: Contains routes to each page of the site
+
 'use strict';
 var express = require('express');
 var router = express.Router();
