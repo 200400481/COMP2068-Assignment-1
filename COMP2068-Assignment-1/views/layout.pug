@@ -2,6 +2,8 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/main.css')
-  body
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+    include partials/header
+  body.p-3
     block content
+    include partials/footer
